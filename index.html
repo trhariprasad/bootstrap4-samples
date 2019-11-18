@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!--Content of the page-->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Tutorial</a>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    
+    <!--<header>-->
+    <div class="jumbotron"> 
+        <div class="container">
+            <h1>BootStrap 4</h1>
+            <p>This is some text</p>
+            <a  href="#" class="btn btn-primary btn-lg">More...</a>
+        </div>
+    </div>        
+                
+        <!--</header>-->
+
+        <!--Row of columns-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Heading 1</h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>
+                    <a  href="#" class="btn btn-default btn-lg">More...</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Heading 2</h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>
+                    <a  href="#" class="btn btn-default btn-lg">More...</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Heading 3</h3>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <p>
+                    <a  href="#" class="btn btn-default btn-lg">More...</a>
+                </p>
+            </div>    
+        </div>
+		
+		<!-- Grid system example -->
+		<h3>Creating Two-Column Layout</h3><br/>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Heading 1</h3>
+				<p>First, we will create a row in which we will arrange our content. This row will be divided into columns according to the layout.
+
+				A row is always created inside a container. The container is like a wrapper that covers the grid. You can use either the class .container for a fixed width or the class .container-fluid for full width. The class .row creates a horizontal row into which you can place your content in different columns.</p>
+			</div>
+			<div class="col-md-6">
+				<h3>Heading 2</h3>
+				<p>To create a two column layout, first, we define a row inside a container. Now, the content will be placed two per row for medium and larger sized devices. For devices smaller than that the contents will be stacked on top of each other.
+
+				So we have a paragraph and a heading to it. This content will sit inside a container with class .col-md-6. Here, the col is the column, md define the breakpoint being medium and 6 is the number of grid columns it is taking up.
+
+				The below code creates a row with two columns of equal width.</p>
+			</div>
+		</div>
+		<h3>Creating Three-Column Layout</h3><br/>
+		<div class="row">
+			<div class="col-md-4">
+				<h3>Heading 1</h3>
+				<p>This is an example for grid with three equal columns</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Heading 2</h3>
+				<p>This is an example for grid with three equal columns</p>
+			</div>
+			<div class="col-md-4">
+				<h3>Heading 3</h3>
+				<p>This is an example for grid with three equal columns</p>
+			</div>
+		</div>
+		<p>You can rearrange the contents with .push-md-* and .pull-md-* classes. You will need a little bit of arithmetic if you do not need your contents to overlap.</p>
+		<div class="row">
+			<div class="col-md-3 push-md-9">
+				<h3>Heading 1</h3>
+				<p>This column takes 3 columns of the grid and is pushed by 9 columns</p>
+			</div>
+			<div class="col-md-9 pull-md-3">
+				<h3>Heading 2</h3>
+				<p>This column takes 9 columns of the grid and is pulled by 3 columns</p>
+			</div>
+		</div>
+    </div>
+    
+    <!--Footer of the page-->
+    <footer><p>© 2016 - Company Inc.</p></footer>
+    <!--Bootstrap core JavaScript-->
+    <!--Placed at the end of the page so that the pages load faster-->
+	<script src="js/jquery11.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
